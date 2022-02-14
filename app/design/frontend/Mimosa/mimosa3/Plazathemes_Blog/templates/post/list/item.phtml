@@ -1,0 +1,56 @@
+<?php
+/**
+ * Copyright © 2015 PlazaThemes.com. All rights reserved.
+
+ * @author PlazaThemes Team <contact@plazathemes.com>
+ */
+?>
+<?php
+/**
+ * Blog post list item template
+ *
+ * @var $block \Plazathemes\Blog\Block\Post\AbstractPost
+ */
+?>
+<?php
+    $_post = $this->getPost();
+    $_postUrl = $_post->getPostUrl();
+    $_postName = $block->escapeHtml($_post->getTitle(), null, true);
+?>
+<li class="post-holder post-holder-<?php echo $_post->getId() ?>">
+	<div class="row">
+		<div class="col-sm-6 col-xs-12">
+			<div class="post-images">
+				<a href="<?php echo $_post->getPostUrl() ?>">
+					<img src="<?php echo $this->getMediaFolder().$_post->getThumbnailimage() ?>"/>
+				</a>
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12" style="padding-top: 20px">
+			<div class="post-content">
+			<?php echo $this->getInfoHtml() ?>
+				<div class="post-title-holder clearfix">
+					<h2 class="post-title" style="margin-top: 15px">
+						<a class="post-item-link" style="font-size: 28px; font-weight: 500;"
+						   href="<?php echo $_postUrl ?>">
+							<?php echo $_postName; ?>
+						</a>
+					</h2> 
+				</div> 
+				<div class="post-description clearfix" style="font-size: 24px;">
+					<?php echo $_post->getShortContent() ?>
+					
+				</div>
+				<a class="post-read-more hidden-xs" href="<?php echo $_postUrl ?>" title="<?php echo $_postName ?>">
+				   Readmore
+				</a>
+				<a class="post-read-more hidden-sm visible-xs" href="<?php echo $_postUrl ?>" title="<?php echo $_postName ?>">
+				   Readmore
+				</a>
+			</div> 
+		</div>
+	</div>
+    
+
+   
+</li>

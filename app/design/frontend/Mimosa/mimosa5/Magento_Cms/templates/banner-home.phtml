@@ -1,0 +1,12 @@
+<div class="box_padding">	
+	<div class="banner-slider">	
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('bannerslider.phtml')->toHtml();?> 
+	</div>
+	<div class="banner-home">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_static_top_h5')->toHtml(); ?>
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_welcome')->toHtml(); ?>
+	</div>
+</div>
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_bottom')->toHtml(); ?>		
+	</div>

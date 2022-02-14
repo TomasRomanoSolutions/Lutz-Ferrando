@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<ma_mimosa>
+    <blocks>
+		
+		<block>
+            <title>Menu Link</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+				<![CDATA[
+<div class="menu-link">
+<ul>
+<li><a href="{{store url="blog"}}">Blog</a></li>
+<li><a href="{{store url="contact"}}">Contact Us</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Contact Map</title>
+            <identifier>contact_map</identifier>
+            <content>
+				<![CDATA[
+<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d774781.4431526576!2d-102.14621326758693!3d40.663171023783335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8776990919d7f7f9%3A0xc9896e33b10a3c8d!2sRoad+332%2C+Grant%2C+NE+69140%2C+Hoa+K%E1%BB%B3!3m2!1d40.8072002!2d-101.6463716!5e0!3m2!1svi!2s!4v1458726863548" width="100%" height="550" frameborder="0"></iframe></p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Pt Menu Id Cat</title>
+            <identifier>pt_menu_idcat_3</identifier>
+            <content>
+				<![CDATA[
+<p><img src="{{media url="wysiwyg/ptid.png"}}" alt="" /></p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Block Welcome</title>
+            <identifier>block_welcome</identifier>
+            <content>
+				<![CDATA[
+<div class="block_welcome">
+<div>
+<div class="wrap">
+<div class="cap">
+<p>Who Are We</p>
+<h3>Welcome To Mimosa</h3>
+</div>
+<div class="content"><span>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum</span> <span>dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue</span> <span>duis dolore te feugait nulla facilisi.</span></div>
+<div class="info"><span>John Doe - </span>CEO Mimosa</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Category Static</title>
+            <identifier>category_static</identifier>
+            <content>
+				<![CDATA[
+<div class="category_static">
+<div class="container">
+<div class="row">
+<div class="col col1 ">
+<div class="catebox catebox1"><a href="{{store url='sunglasses.html'}}"><img src="{{media url="wysiwyg/cate1.png"}}" alt="" /></a><a href="{{store url='sunglasses.html'}}">Sunglasses</a></div>
+<div class="catebox catebox2"><a href="{{store url='accessories.html'}}"><img src="{{media url="wysiwyg/cate2.png"}}" alt="" /></a><a href="{{store url='accessories.html'}}">Accessories</a></div>
+</div>
+<div class="col col2 ">
+<div class="catebox catebox3"><a href="{{store url='clothing.html'}}"><img src="{{media url="wysiwyg/cate3.png"}}" alt="" /></a><a href="{{store url='clothing.html'}}">Clothings</a></div>
+</div>
+<div class="col col3 ">
+<div class="catebox catebox4"><a href="{{store url='handbag-for-men-s.html'}}"><img src="{{media url="wysiwyg/cate4.png"}}" alt="" /></a><a href="{{store url='handbag-for-men-s.html'}}">Handbag</a></div>
+<div class="catebox catebox5"><a href="{{store url='sneakers.html'}}"><img src="{{media url="wysiwyg/cate5.png"}}" alt="" /></a><a href="{{store url='sneakers.html'}}">Sneakers</a></div>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static</title>
+            <identifier>banner_static</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Block Bottom</title>
+            <identifier>block_bottom</identifier>
+            <content>
+				<![CDATA[
+<div class="block_bottom">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="col1 col">
+<div class="image"><img src="{{media url="wysiwyg/icon1.png"}}" alt="" /></div>
+<h3>Free Shipping Worldwide</h3>
+<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="col2 col">
+<div class="image"><img src="{{media url="wysiwyg/icon2.png"}}" alt="" /></div>
+<h3>Money Back Guarantee</h3>
+<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="col3 col">
+<div class="image"><img src="{{media url="wysiwyg/icon3.png"}}" alt="" /></div>
+<h3>online support 24/7</h3>
+<p>Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Footer End</title>
+            <identifier>footer_end</identifier>
+            <content>
+				<![CDATA[
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-sm-2 col-xs-12">
+<div class="logofoo"><a href="#"><img src="{{media url="wysiwyg/logofoo.png"}}" alt="" /></a></div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="copyright">Copyright &copy; 2017 <span>PlazaThemes</span>. All Right Reserved.</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="link-web">
+<ul>
+<li><a class="face" href="#">face</a></li>
+<li><a class="twitter" href="#">twitter</a></li>
+<li><a class="dribbble" href="#">dribbble</a></li>
+<li><a class="behance" href="#">behance</a></li>
+<li><a class="rss" href="#">rss</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>	
+		<block>
+            <title>Category Static H2</title>
+            <identifier>category_static_h2</identifier>
+            <content>
+				<![CDATA[
+<div class="category_static">
+<div class="banner_padding">
+<div class="row">
+<div class="col col1 ">
+<div class="catebox catebox1"><a href="{{store url='clothings.html'}}"><img src="{{media url="wysiwyg/cate1_h2.png"}}" alt="" /> </a><a href="{{store url='clothings.html'}}">Clothings</a></div>
+</div>
+<div class="col col2 ">
+<div class="catebox catebox2"><a href="{{store url='handbag.html'}}"><img src="{{media url="wysiwyg/cate2_h2.png"}}" alt="" /> </a><a href="{{store url='handbag.html'}}">Handbag</a></div>
+<div class="catebox catebox3"><a href="{{store url='sunglasses.html'}}"><img src="{{media url="wysiwyg/cate3_h2.png"}}" alt="" /> </a><a href="{{store url='sunglasses.html'}}">Sunglasses</a></div>
+</div>
+<div class="col col3 ">
+<div class="catebox catebox4"><a href="{{store url='scarf-scarves.html'}}"><img src="{{media url="wysiwyg/cate4_h2.png"}}" alt="" /> </a><a href="{{store url='scarf-scarves.html'}}">Scarf Scarves</a></div>
+</div>
+<div class="col col4 ">
+<div class="catebox catebox5"><a href="{{store url='sneakers.html'}}"><img src="{{media url="wysiwyg/cate5_h2.png"}}" alt="" /> </a><a href="{{store url='sneakers.html'}}">Sneakers</a></div>
+</div>
+<div class="col col5 ">
+<div class="catebox catebox6"><a href="{{store url='accessories.html'}}"><img src="{{media url="wysiwyg/cate6_h2.png"}}" alt="" /></a> <a href="{{store url='accessories.html'}}">Accessories</a></div>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static Top</title>
+            <identifier>banner_static_top</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop1.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop2.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box3"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop3.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+				<![CDATA[
+<div class="footer-static">
+<div class="row">
+<div class=" col-md-6 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col1">
+<div class="footer-static-title">
+<div class="logofoo logofooall"><a href="#"><img src="{{media url="wysiwyg/logofoo.png"}}" alt="" /></a></div>
+<div class="logofoo logofooh6"><a href="#"><img src="{{media url="wysiwyg/logofooh6.png"}}" alt="" /></a></div>
+</div>
+<div class="footer-static-content">
+<div class="box-des box-footer">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</div>
+<div class="box-ct box-footer">
+<h3>Follow Us On Social:</h3>
+<div class="link-web">
+<ul>
+<li><a class="face" href="#">face</a></li>
+<li><a class="twitter" href="#">twitter</a></li>
+<li><a class="dribbble" href="#">dribbble</a></li>
+<li><a class="behance" href="#">behance</a></li>
+<li><a class="rss" href="#">rss</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col2">
+<div class="footer-static-title">
+<h2>Opening Time</h2>
+</div>
+<div class="footer-static-content">
+<div class="foobox"><span>Mon - Fri: 8AM - 10PM</span> <span>Sat: 9AM-8PM</span> <span>Sun: Closed</span>
+<p>We Work All The Holidays</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col3">
+<div class="footer-static-title">
+<h2>My Account</h2>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">My Account</a></li>
+<li><a href="#">Wishlist</a></li>
+<li><a href="#">Order Tracking</a></li>
+<li><a href="#">Shipping Info</a></li>
+<li><a href="#">Return Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col4">
+<div class="footer-static-title">
+<h2>About Us</h2>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">About Us</a></li>
+<li><a href="#">Shopping Guide</a></li>
+<li><a href="#">Delivery Information</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Our Store</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Footer End V2</title>
+            <identifier>footer_end_v2</identifier>
+            <content>
+				<![CDATA[
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="copyright">Copyright &copy; 2017 <span>PlazaThemes</span>. All Right Reserved.</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="menu_end">
+<ul>
+<li><a href="#">Policy </a></li>
+<li><a href="#">Term &amp; Conditions</a></li>
+<li><a href="#">Affiliate</a></li>
+<li><a href="#">Help </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static Home6</title>
+            <identifier>banner_static_h6</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1_h6.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2_h6.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static h2</title>
+            <identifier>banner_static_h2</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1_h2.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2_h2.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static h3</title>
+            <identifier>banner_static_h3</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1_h3.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2_h3.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static h4</title>
+            <identifier>banner_static_h4</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1_h4.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2_h4.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static H56</title>
+            <identifier>banner_static_h56</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static1_h56.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/static2_h56.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static Top H5</title>
+            <identifier>banner_static_top_h5</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop1_h5.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop2_h5.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box3"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/statictop3_h5.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_left"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/banner-left.jpg"}}" alt="" /></a></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+    </blocks>
+</ma_mimosa>

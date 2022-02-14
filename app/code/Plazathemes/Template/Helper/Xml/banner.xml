@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<name><span>clothing</span><span>new collection</span></name>
+		<title1>New arrivals!</title1>
+		<title2>amazing mimosa</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description>We crack for this purely rock style with stitched quills in relief and metallic
+hardware.</description>
+		<order>0</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name><span>handbag</span><span>new collection</span></name>
+		<title1>Clean Elegant!</title1>
+		<title2>Black Handbag</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description>BlackBird collection of minimal, sleek and functional Carryalls were designed with creatives in mind.</description>
+		<order>0</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name><span>handbag</span><span>new collection</span></name>
+		<title1>amazing product!</title1>
+		<title2>backpack</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider3.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description>Inspired by the Kastrup backpack, but reimagined for the modern woman, the Piper 
+marries the functionality our backpacks are known for with more feminine proportions and details.</description>
+		<order>0</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+
+</records>
+</bannerslider>

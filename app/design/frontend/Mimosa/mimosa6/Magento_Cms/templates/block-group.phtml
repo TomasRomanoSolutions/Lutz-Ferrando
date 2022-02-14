@@ -1,0 +1,21 @@
+<div class="block-group box-section">		
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_static_h56')->toHtml(); ?>	
+		<div class="line_bot">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Saleproductslider\Block\Saleproductslider')->setTemplate('saleproductslider.phtml')->toHtml();?> 
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Newproductslider\Block\Newproductslider')->setTemplate('newproductslider.phtml')->toHtml();?> 
+				</div>	
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Bestsellerproduct\Block\Bestsellerproduct')->setTemplate('bestsellerproduct.phtml')->toHtml();?> 				
+				</div>
+			</div>
+		</div>			
+		<div class="blog-slider">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Blog\Block\Sidebar\Recent')->setTemplate('sidebar/slider.phtml')->toHtml();?> 
+		</div>
+	</div>
+</div>

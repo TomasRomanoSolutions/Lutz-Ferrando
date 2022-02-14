@@ -1,0 +1,9 @@
+<div class="banner-slider">	
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('bannerslider.phtml')->toHtml();?> 
+</div>
+<div class="banner-home">
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_static_h6')->toHtml(); ?>	
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_bottom')->toHtml(); ?>		
+	</div>
+</div>	
